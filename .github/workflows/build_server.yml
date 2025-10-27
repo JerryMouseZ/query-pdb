@@ -114,4 +114,4 @@ jobs:
           file: Dockerfile
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
-            ${{secrets.DOCKERHUB_USERNAME}}/query-pdb-server:latest
+            zouxianyu/query-pdb-server:latest
